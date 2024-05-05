@@ -1,0 +1,7 @@
+Trabajaremos en un Ecommerce de una reposteria, en donde cada desarrollador tendra su propia rama y realizara el merge a la rama DEV.
+
+Participantes Proyecto:
+
+Miguel Angel Madroñero  --> miguel-Angel
+
+Mateo Rueda Gomez  --> mateo-rueda
