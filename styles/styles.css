@@ -1,0 +1,41 @@
+/* //Normalizando archivos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --padding-container: 15px 0;
+    --color-active: rgb(248, 124, 144);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: var(--padding-container);
+}
+.header{
+    height: 150px;
+    width: 100%;
+    background-image: url("../img/imagen1.jpg");
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.enlace{
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+}
+.active{
+    color: var(--color-active);
+    background-color: white;
+    border-bottom: 1px solid var(--color-active);
+    border-right: 1px solid  var(--color-active);
+}
